@@ -1,0 +1,6 @@
+{
+  "name": "Nigeria E-Voting & Accreditation Portal",
+  "description": "Official Federal Republic of Nigeria electronic accreditation and cryptographic voting portal with separate citizen and INEC official gateways, PVC card generation, PDF manifesto reviews, and photo uploads.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --ng-green-primary: #168447;
+    --ng-green-dark: #116B39;
+    --ng-green-deep: #0D4E29;
+    --ng-green-light: #E7F3EB;
+    --ng-green-subtle: #F1F7F2;
+    --ng-border: #E3E8E4;
+    --ng-text-primary: #202522;
+    --ng-text-secondary: #68716B;
+    --ng-bg-app: #FFFFFF;
+    --ng-bg-card: #FFFFFF;
+    --ng-bg-section: #F6F7F6;
+  }
+
+  body {
+    background-color: #FFFFFF;
+    color: #202522;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .font-mono,
+  .font-mono-gov {
+    font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    font-feature-settings: "zero" 1;
+  }
+
+  /* Refined official scrollbars */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #F1F7F2;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #C4D6C9;
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #168447;
+  }
+}
+
+/* Federal security flag stripes */
+.flag-stripe-green {
+  background-color: #168447;
+}
+.flag-stripe-white {
+  background-color: #FFFFFF;
+}
